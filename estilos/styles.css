@@ -1,0 +1,132 @@
+body {
+    background-color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+p {
+    color: rgb(0, 0, 0);
+}
+
+.barra-nav{
+    display: flex;
+    justify-content: space-between;
+    background-color: rgb(49, 107, 109);
+    padding: 5px;
+    align-items: center;
+    border-top-right-radius: 12px;
+    border-top-left-radius: 12px;
+}
+
+@media (max-width: 768px) {
+    .barra-nav{
+        background-color: black;
+    }
+}
+
+header nav a i{
+    font-size: 2em;
+    color: rgb(255, 255, 255);
+}
+
+.lista{
+    display: flex;
+    justify-content: flex-end;
+    list-style: none;
+    gap: 10px;   
+}
+
+.lista a {
+    color: white;    
+    text-decoration: none;
+}
+
+#seccion-principal {
+    background-color: rgb(184, 247, 171);
+}
+
+.seccion-1{
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    justify-content: center;
+    gap: 30px;    
+}
+
+.seccion-1 p{
+    display: block;
+}
+
+.acerca-de{    
+    text-align: end;
+    justify-content: center;
+    width: 300px;
+}
+
+@media (max-width: 768px){
+    .acerca-de{
+        text-align:center;
+    }
+}
+
+.tipo-actividad{
+    display: flex;
+    flex-wrap: wrap;
+    text-align: left;
+    justify-content: center;
+    gap: 20px;
+    padding-bottom: 25px;
+}
+.tipo-actividad div{
+    background-color: rgb(72, 182, 109);
+    border-radius: 10px;        
+}
+
+.tipo-actividad div img{
+    border-radius: 10px 10px 0cm 0px;    
+}
+
+.contacto{
+    background-color: black; 
+    display: flex;       
+    border-bottom-right-radius: 12px;
+    border-bottom-left-radius: 12px;    
+    padding-left: -10px;
+}
+
+.redes-sociales{
+    list-style: none;
+    text-align: left;    
+}
+
+.redes-sociales a{
+    color: aliceblue;        
+    text-decoration: none;
+}
+
+.redes-sociales h3{
+    color: aliceblue;
+}
+
+footer div a i{
+    color: rgb(19, 163, 67);
+    position: fixed;
+    bottom: 15px;  
+    right: 15px;
+}
+
+/* MENU */
+#check{
+    display: none;
+}
+
+.checkbtn{
+    font-size: 25px;
+    color: aliceblue;
+    float: right;
+    line-height: 80px;
+    margin-right:40px;
+    cursor:pointer;
+    display: none;
+}
